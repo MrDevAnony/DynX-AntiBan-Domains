@@ -47,6 +47,6 @@ jobs:
 
                       wget -q https://github.com/MrDevAnony/DynX-AntiBan-Domains/raw/refs/heads/main/DynX-AntiBan-list.lst
 
-                      docker compose restart
+                      docker compose restart sniDust
 
                       exit

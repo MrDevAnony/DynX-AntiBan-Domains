@@ -200,7 +200,6 @@
 ||mathworks.com^$dnsrewrite=5.198.178.208
 ||xbox.com^$dnsrewrite=5.198.178.208
 ||cloudinary.com^$dnsrewrite=5.198.178.208
-||microsoft.com^$dnsrewrite=5.198.178.208
 ||smartadserver.com^$dnsrewrite=5.198.178.208
 ||amazon.com^$dnsrewrite=5.198.178.208
 ||aws.amazon.com^$dnsrewrite=5.198.178.208
@@ -784,8 +783,6 @@
 ||crtv.mk^$dnsrewrite=5.198.178.208
 ||downduck.com^$dnsrewrite=5.198.178.208
 ||livepopulation.com^$dnsrewrite=5.198.178.208
-||unyson.io^$dnsrewrite=5.198.178.208
-||github-api-cache.unyson.io^$dnsrewrite=5.198.178.208
 ||acme.sh^$dnsrewrite=5.198.178.208
 ||get.acme.sh^$dnsrewrite=5.198.178.208
 ||trueos.org^$dnsrewrite=5.198.178.208
@@ -1551,10 +1548,8 @@
 ||cs50.me^$dnsrewrite=5.198.178.208
 ||cs50.dev^$dnsrewrite=5.198.178.208
 ||vscode.dev^$dnsrewrite=5.198.178.208
-||github.dev^$dnsrewrite=5.198.178.208
 ||sites.google.com^$dnsrewrite=5.198.178.208
 ||gvt1.com^$dnsrewrite=5.198.178.208
-||github.io^$dnsrewrite=5.198.178.208
 ||pdf2go.com^$dnsrewrite=5.198.178.208
 ||netdevgroup.com^$dnsrewrite=5.198.178.208
 ||reality.ai^$dnsrewrite=5.198.178.208
@@ -1573,7 +1568,6 @@
 ||serverfault.com^$dnsrewrite=5.198.178.208
 ||stackoverflow.com^$dnsrewrite=5.198.178.208
 ||flutter-io.cn^$dnsrewrite=5.198.178.208
-||githubapp.com^$dnsrewrite=5.198.178.208
 ||freedesktop.org^$dnsrewrite=5.198.178.208
 ||mybridge.co^$dnsrewrite=5.198.178.208
 ||sentry-cdn.com^$dnsrewrite=5.198.178.208
@@ -1596,7 +1590,6 @@
 ||gallery.io^$dnsrewrite=5.198.178.208
 ||centos.org^$dnsrewrite=5.198.178.208
 ||scdn.co^$dnsrewrite=5.198.178.208
-||githubassets.com^$dnsrewrite=5.198.178.208
 ||serialport.io^$dnsrewrite=5.198.178.208
 ||fluttercrashcourse.com^$dnsrewrite=5.198.178.208
 ||vmcdn.com^$dnsrewrite=5.198.178.208
@@ -1742,7 +1735,6 @@
 ||ghcr.io^$dnsrewrite=5.198.178.208
 ||gitbook.com^$dnsrewrite=5.198.178.208
 ||gitconnected.com^$dnsrewrite=5.198.178.208
-||github.community^$dnsrewrite=5.198.178.208
 ||gitlag.com^$dnsrewrite=5.198.178.208
 ||gitter.im^$dnsrewrite=5.198.178.208
 ||clients5.google.com^$dnsrewrite=5.198.178.208
@@ -1892,7 +1884,6 @@
 ||goo.gl^$dnsrewrite=5.198.178.208
 ||collectui.com^$dnsrewrite=5.198.178.208
 ||goo.gle^$dnsrewrite=5.198.178.208
-||githubnext.com^$dnsrewrite=5.198.178.208
 ||discourse-cdn.com^$dnsrewrite=5.198.178.208
 ||red-gate.com^$dnsrewrite=5.198.178.208
 ||rxjs.dev^$dnsrewrite=5.198.178.208
@@ -1908,7 +1899,6 @@
 ||dl-cdn.alpinelinux.org^$dnsrewrite=5.198.178.208
 ||truenas.com^$dnsrewrite=5.198.178.208
 ||ixsystems.com^$dnsrewrite=5.198.178.208
-||githubstatus.com^$dnsrewrite=5.198.178.208
 ||vjs.zencdn.net^$dnsrewrite=5.198.178.208
 ||materialdesignicons.com^$dnsrewrite=5.198.178.208
 ||idx.dev^$dnsrewrite=5.198.178.208
@@ -1988,3 +1978,4 @@
 ||zapier.com^$dnsrewrite=5.198.178.208
 ||mtalk.google.com^$dnsrewrite=5.198.178.208
 ||alt8-mtalk.google.com^$dnsrewrite=5.198.178.208
+||playstation.com^$dnsrewrite=5.198.178.208

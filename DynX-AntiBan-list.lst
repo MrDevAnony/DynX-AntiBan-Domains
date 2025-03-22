@@ -200,7 +200,6 @@ dynect.net
 mathworks.com
 xbox.com
 cloudinary.com
-microsoft.com
 smartadserver.com
 amazon.com
 aws.amazon.com
@@ -784,8 +783,6 @@ sparkjava.com
 crtv.mk
 downduck.com
 livepopulation.com
-unyson.io
-github-api-cache.unyson.io
 acme.sh
 get.acme.sh
 trueos.org
@@ -1551,10 +1548,8 @@ cs50.ai
 cs50.me
 cs50.dev
 vscode.dev
-github.dev
 sites.google.com
 gvt1.com
-github.io
 pdf2go.com
 netdevgroup.com
 reality.ai
@@ -1573,7 +1568,6 @@ leech.com
 serverfault.com
 stackoverflow.com
 flutter-io.cn
-githubapp.com
 freedesktop.org
 mybridge.co
 sentry-cdn.com
@@ -1596,7 +1590,6 @@ macromedia.com
 gallery.io
 centos.org
 scdn.co
-githubassets.com
 serialport.io
 fluttercrashcourse.com
 vmcdn.com
@@ -1742,7 +1735,6 @@ reload.getsentry.net
 ghcr.io
 gitbook.com
 gitconnected.com
-github.community
 gitlag.com
 gitter.im
 clients5.google.com
@@ -1892,7 +1884,6 @@ sandbox.google.com
 goo.gl
 collectui.com
 goo.gle
-githubnext.com
 discourse-cdn.com
 red-gate.com
 rxjs.dev
@@ -1908,7 +1899,6 @@ netlify.app
 dl-cdn.alpinelinux.org
 truenas.com
 ixsystems.com
-githubstatus.com
 vjs.zencdn.net
 materialdesignicons.com
 idx.dev
@@ -1993,3 +1983,4 @@ education.github.com
 googleapis.com
 run.app
 online-fix.me
+playstation.com
