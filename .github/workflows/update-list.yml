@@ -38,7 +38,7 @@ jobs:
           echo "    default 0.0.0.0:0;" >> allowed_domains.conf
           while IFS= read -r domain; do
             [[ $domain = \#* ]] || [[ -z $domain ]] && continue
-            echo "    $domain \$ssl_preread_server_name:443;" >> allowed_domains.conf
+            echo "    ~^(.*\.)?$domain \$ssl_preread_server_name;" >> allowed_domains.conf
           done < DynX-AntiBan-list.lst
           echo "}" >> allowed_domains.conf
           git config --global user.name "github-actions[bot]"
