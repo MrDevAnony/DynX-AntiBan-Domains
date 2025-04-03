@@ -1,4 +1,5 @@
 ||gamea.clashofclans.com^$dnsrewrite=5.198.178.208
+||game.clashroyaleapp.com^$dnsrewrite=5.198.178.208
 ||check-host.net^$dnsrewrite=5.198.178.208
 ||akamaized.net^$dnsrewrite=5.198.178.208
 ||ettdnsv.com^$dnsrewrite=5.198.178.208
@@ -130,7 +131,6 @@
 ||go.com^$dnsrewrite=5.198.178.208
 ||amadeus.com^$dnsrewrite=5.198.178.208
 ||api.amadeus.com^$dnsrewrite=5.198.178.208
-||steamcommunity.com^$dnsrewrite=5.198.178.208
 ||criteo.com^$dnsrewrite=5.198.178.208
 ||nginx.com^$dnsrewrite=5.198.178.208
 ||digitalocean.com^$dnsrewrite=5.198.178.208
@@ -144,8 +144,6 @@
 ||figma.com^$dnsrewrite=5.198.178.208
 ||mi.com^$dnsrewrite=5.198.178.208
 ||grammarly.com^$dnsrewrite=5.198.178.208
-||steampowered.com^$dnsrewrite=5.198.178.208
-||store.steampowered.com^$dnsrewrite=5.198.178.208
 ||cpanel.net^$dnsrewrite=5.198.178.208
 ||forums.cpanel.net^$dnsrewrite=5.198.178.208
 ||unity3d.com^$dnsrewrite=5.198.178.208
@@ -1497,7 +1495,6 @@
 ||amazontrust.com^$dnsrewrite=5.198.178.208
 ||gamesplanet.com^$dnsrewrite=5.198.178.208
 ||ifconfig.me^$dnsrewrite=5.198.178.208
-||steamstatic.com^$dnsrewrite=5.198.178.208
 ||vscode-unpkg.net^$dnsrewrite=5.198.178.208
 ||grok.com^$dnsrewrite=5.198.178.208
 ||x.ai^$dnsrewrite=5.198.178.208
@@ -1980,3 +1977,11 @@
 ||googleapis.com^$dnsrewrite=5.198.178.208
 ||playstation.com^$dnsrewrite=5.198.178.208
 ||online-fix.me^$dnsrewrite=5.198.178.208
+||githubcopilot.com^$dnsrewrite=5.198.178.208
+||valve.net^$dnsrewrite=5.198.178.208
+||steamstatic.com^$dnsrewrite=5.198.178.208
+||steampowered.com^$dnsrewrite=5.198.178.208
+||steamcommunity.com^$dnsrewrite=5.198.178.208
+||myteamspeak.com^$dnsrewrite=5.198.178.208
+||teamspeak.com^$dnsrewrite=5.198.178.208
+||battleye.com^$dnsrewrite=5.198.178.208
