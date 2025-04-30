@@ -1,3 +1,4 @@
+||Beatport.com^$dnsrewrite=10.70.95.162
 ||fedoraproject.org^$dnsrewrite=10.70.95.162
 ||discordapp.com^$dnsrewrite=10.70.95.162
 ||discord.media ^$dnsrewrite=10.70.95.162
