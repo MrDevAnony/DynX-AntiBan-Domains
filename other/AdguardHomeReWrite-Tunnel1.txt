@@ -1,3 +1,4 @@
+||llama.com^$dnsrewrite=10.70.95.162
 ||checks.google.com^$dnsrewrite=10.70.95.162
 ||cmf.tech^$dnsrewrite=10.70.95.162
 ||nothing.tech^$dnsrewrite=10.70.95.162
@@ -1739,7 +1740,6 @@
 ||gitlag.com^$dnsrewrite=10.70.95.162
 ||gitter.im^$dnsrewrite=10.70.95.162
 ||clients5.google.com^$dnsrewrite=10.70.95.162
-||dns.google.com^$dnsrewrite=10.70.95.162
 ||clients4.google.com^$dnsrewrite=10.70.95.162
 ||clients1.google.com^$dnsrewrite=10.70.95.162
 ||clients3.google.com^$dnsrewrite=10.70.95.162
@@ -3993,3 +3993,7 @@
 ||bestofai.com^$dnsrewrite=10.70.95.162
 ||discord.gg^$dnsrewrite=10.70.95.162
 ||discord.com^$dnsrewrite=10.70.95.162
+||spikes.studio^$dnsrewrite=10.70.95.162
+||ai-chat.bsg.brave.com^$dnsrewrite=10.70.95.162
+||trae.ai^$dnsrewrite=10.70.95.162
+||bnetdocs.org^$dnsrewrite=10.70.95.162
