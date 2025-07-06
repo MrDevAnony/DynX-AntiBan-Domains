@@ -1,3 +1,7 @@
+||raw.githubusercontent.com^$dnsrewrite=10.70.95.150
+||github.com^$dnsrewrite=10.70.95.150
+||llama.com^$dnsrewrite=10.70.95.150
+||galxe.com^$dnsrewrite=10.70.95.150
 ||checks.google.com^$dnsrewrite=10.70.95.150
 ||cmf.tech^$dnsrewrite=10.70.95.150
 ||nothing.tech^$dnsrewrite=10.70.95.150
@@ -56,7 +60,6 @@
 ||play.google.com^$dnsrewrite=10.70.95.150
 ||research.google.com^$dnsrewrite=10.70.95.150
 ||services.google.com^$dnsrewrite=10.70.95.150
-||cloud.google.com^$dnsrewrite=10.70.95.150
 ||surveys.google.com^$dnsrewrite=10.70.95.150
 ||tagmanager.google.com^$dnsrewrite=10.70.95.150
 ||time.google.com^$dnsrewrite=10.70.95.150
@@ -75,7 +78,6 @@
 ||i.stack.imgur.com^$dnsrewrite=10.70.95.150
 ||medium.com^$dnsrewrite=10.70.95.150
 ||arcgis.com^$dnsrewrite=10.70.95.150
-||salesforce.com^$dnsrewrite=10.70.95.150
 ||gravatar.com^$dnsrewrite=10.70.95.150
 ||webex.com^$dnsrewrite=10.70.95.150
 ||apache.org^$dnsrewrite=10.70.95.150
@@ -153,7 +155,6 @@
 ||mailchimp.com^$dnsrewrite=10.70.95.150
 ||constantcontact.com^$dnsrewrite=10.70.95.150
 ||figma.com^$dnsrewrite=10.70.95.150
-||mi.com^$dnsrewrite=10.70.95.150
 ||grammarly.com^$dnsrewrite=10.70.95.150
 ||cpanel.net^$dnsrewrite=10.70.95.150
 ||forums.cpanel.net^$dnsrewrite=10.70.95.150
@@ -1005,18 +1006,18 @@
 ||files.softaculous.com^$dnsrewrite=10.70.95.150
 ||files.virtualizor.com^$dnsrewrite=10.70.95.150
 ||flexibleshipping.com^$dnsrewrite=10.70.95.150
-||fonts..com^$dnsrewrite=10.70.95.150
+||fonts.com^$dnsrewrite=10.70.95.150
 ||ftp.nluug.nl^$dnsrewrite=10.70.95.150
 ||ftp.postgresql.org^$dnsrewrite=10.70.95.150
 ||get.docker.ir^$dnsrewrite=10.70.95.150
 ||getwooplugins.com^$dnsrewrite=10.70.95.150
 ||gmail-smtp-in.l.google.com^$dnsrewrite=10.70.95.150
-||gmail..com^$dnsrewrite=10.70.95.150
+||gmail.com^$dnsrewrite=10.70.95.150
 ||gravityapi.com^$dnsrewrite=10.70.95.150
 ||help.us-themes.com^$dnsrewrite=10.70.95.150
 ||httpupdate.cpanel.net^$dnsrewrite=10.70.95.150
-||iid..com^$dnsrewrite=10.70.95.150
-||indexing..com^$dnsrewrite=10.70.95.150
+||iid.com^$dnsrewrite=10.70.95.150
+||indexing.com^$dnsrewrite=10.70.95.150
 ||intellywp.com^$dnsrewrite=10.70.95.150
 ||ipecho.net^$dnsrewrite=10.70.95.150
 ||ir.archive.ubuntu.com^$dnsrewrite=10.70.95.150
@@ -1071,7 +1072,7 @@
 ||node-binaries.s3.amazonaws.com^$dnsrewrite=10.70.95.150
 ||node.aapanel.com^$dnsrewrite=10.70.95.150
 ||novininsta.com^$dnsrewrite=10.70.95.150
-||oauth2..com^$dnsrewrite=10.70.95.150
+||oauth2.com^$dnsrewrite=10.70.95.150
 ||objectcache.pro^$dnsrewrite=10.70.95.150
 ||ocsp.comodoca.com^$dnsrewrite=10.70.95.150
 ||onesignal.com^$dnsrewrite=10.70.95.150
@@ -1083,7 +1084,7 @@
 ||packages-eu.bigbluebutton.org^$dnsrewrite=10.70.95.150
 ||packages.gitlab.com^$dnsrewrite=10.70.95.150
 ||packages.translationspress.com^$dnsrewrite=10.70.95.150
-||pagespeedonline..com^$dnsrewrite=10.70.95.150
+||pagespeedonline.com^$dnsrewrite=10.70.95.150
 ||pecl.php.net^$dnsrewrite=10.70.95.150
 ||perfectmoney.com^$dnsrewrite=10.70.95.150
 ||perfmatters.io^$dnsrewrite=10.70.95.150
@@ -1123,7 +1124,7 @@
 ||s8.softaculous.com^$dnsrewrite=10.70.95.150
 ||sandbox-wbapi.thesslstore.com^$dnsrewrite=10.70.95.150
 ||scriptsbundle.com^$dnsrewrite=10.70.95.150
-||searchconsole..com^$dnsrewrite=10.70.95.150
+||searchconsole.com^$dnsrewrite=10.70.95.150
 ||searchwp.com^$dnsrewrite=10.70.95.150
 ||securedownloads.cpanel.net^$dnsrewrite=10.70.95.150
 ||security.ubuntu.com^$dnsrewrite=10.70.95.150
@@ -1134,7 +1135,7 @@
 ||softaculous.com^$dnsrewrite=10.70.95.150
 ||spamassassin.apache.org^$dnsrewrite=10.70.95.150
 ||stats.wp.com^$dnsrewrite=10.70.95.150
-||storage..com^$dnsrewrite=10.70.95.150
+||storage.com^$dnsrewrite=10.70.95.150
 ||store.cpanel.net^$dnsrewrite=10.70.95.150
 ||store.theplusaddons.com^$dnsrewrite=10.70.95.150
 ||sunnytoo.com^$dnsrewrite=10.70.95.150
@@ -1151,7 +1152,7 @@
 ||tp.tax.gov.ir^$dnsrewrite=10.70.95.150
 ||tp.wpml.org^$dnsrewrite=10.70.95.150
 ||translate.wordpress.org^$dnsrewrite=10.70.95.150
-||type..com^$dnsrewrite=10.70.95.150
+||type.com^$dnsrewrite=10.70.95.150
 ||ubuntu.bigbluebutton.org^$dnsrewrite=10.70.95.150
 ||upd.merkulov.design^$dnsrewrite=10.70.95.150
 ||update.yithemes.com^$dnsrewrite=10.70.95.150
@@ -1189,7 +1190,7 @@
 ||www.envato.com^$dnsrewrite=10.70.95.150
 ||www.exactmetrics.com^$dnsrewrite=10.70.95.150
 ||www.files.virtualizor.com^$dnsrewrite=10.70.95.150
-||www..com^$dnsrewrite=10.70.95.150
+||www.com^$dnsrewrite=10.70.95.150
 ||www.gt^$dnsrewrite=10.70.95.150
 ||www.ilghera.com^$dnsrewrite=10.70.95.150
 ||www.jetpack.com^$dnsrewrite=10.70.95.150
@@ -1224,7 +1225,7 @@
 ||zispa.co.zw^$dnsrewrite=10.70.95.150
 ||pes22-game.cs.konami.net^$dnsrewrite=10.70.95.150
 ||asus.com^$dnsrewrite=10.70.95.150
-||firebaseremoteconfig..com^$dnsrewrite=10.70.95.150
+||firebaseremoteconfig.com^$dnsrewrite=10.70.95.150
 ||pcsupport.lenovo.com^$dnsrewrite=10.70.95.150
 ||registry.docker.io^$dnsrewrite=10.70.95.150
 ||alexa.amazon.com^$dnsrewrite=10.70.95.150
@@ -1603,7 +1604,6 @@
 ||battlecode.org^$dnsrewrite=10.70.95.150
 ||vuetifyjs.com^$dnsrewrite=10.70.95.150
 ||deployer.org^$dnsrewrite=10.70.95.150
-||fedoraproject.org^$dnsrewrite=10.70.95.150
 ||alpinelinux.org^$dnsrewrite=10.70.95.150
 ||yajrabox.com^$dnsrewrite=10.70.95.150
 ||webcatalog.app^$dnsrewrite=10.70.95.150
@@ -1646,7 +1646,6 @@
 ||buf.build^$dnsrewrite=10.70.95.150
 ||pkg.jenkins.io^$dnsrewrite=10.70.95.150
 ||downloads.arduino.cc^$dnsrewrite=10.70.95.150
-||askubuntu.com^$dnsrewrite=10.70.95.150
 ||a2zupload.com^$dnsrewrite=10.70.95.150
 ||abuse.ch^$dnsrewrite=10.70.95.150
 ||addthis.com^$dnsrewrite=10.70.95.150
@@ -1739,7 +1738,6 @@
 ||gitlag.com^$dnsrewrite=10.70.95.150
 ||gitter.im^$dnsrewrite=10.70.95.150
 ||clients5.google.com^$dnsrewrite=10.70.95.150
-||dns.google.com^$dnsrewrite=10.70.95.150
 ||clients4.google.com^$dnsrewrite=10.70.95.150
 ||clients1.google.com^$dnsrewrite=10.70.95.150
 ||clients3.google.com^$dnsrewrite=10.70.95.150
@@ -1855,7 +1853,6 @@
 ||tvcdn.de^$dnsrewrite=10.70.95.150
 ||twimg.com^$dnsrewrite=10.70.95.150
 ||typekit.net^$dnsrewrite=10.70.95.150
-||connectivity-check.ubuntu.com^$dnsrewrite=10.70.95.150
 ||vaultproject.io^$dnsrewrite=10.70.95.150
 ||vidyard.com^$dnsrewrite=10.70.95.150
 ||vjudge.net^$dnsrewrite=10.70.95.150
@@ -1979,8 +1976,7 @@
 ||steamstatic.com^$dnsrewrite=10.70.95.150
 ||steampowered.com^$dnsrewrite=10.70.95.150
 ||steamcommunity.com^$dnsrewrite=10.70.95.150
-||myteamspeak.com^$dnsrewrite=10.70.95.150
-||teamspeak.com^$dnsrewrite=10.70.95.150
+||www.teamspeak.com^$dnsrewrite=10.70.95.150
 ||battleye.com^$dnsrewrite=10.70.95.150
 ||riotgames.com^$dnsrewrite=10.70.95.150
 ||riotcdn.net^$dnsrewrite=10.70.95.150
@@ -3988,8 +3984,21 @@
 ||gemini.google^$dnsrewrite=10.70.95.150
 ||netify.ai^$dnsrewrite=10.70.95.150
 ||pxf.io^$dnsrewrite=10.70.95.150
-||softether-download.com^$dnsrewrite=10.70.95.150
 ||framer.com^$dnsrewrite=10.70.95.150
 ||bestofai.com^$dnsrewrite=10.70.95.150
 ||discord.gg^$dnsrewrite=10.70.95.150
 ||discord.com^$dnsrewrite=10.70.95.150
+||spikes.studio^$dnsrewrite=10.70.95.150
+||ai-chat.bsg.brave.com^$dnsrewrite=10.70.95.150
+||trae.ai^$dnsrewrite=10.70.95.150
+||bnetdocs.org^$dnsrewrite=10.70.95.150
+||datastudios.org^$dnsrewrite=10.70.95.150
+||gpuopen.com^$dnsrewrite=10.70.95.150
+||windsurf.com^$dnsrewrite=10.70.95.150
+||cursor.com^$dnsrewrite=10.70.95.150
+||idx.google.com^$dnsrewrite=10.70.95.150
+||app.cline.bot^$dnsrewrite=10.70.95.150
+||codeassist.google^$dnsrewrite=10.70.95.150
+||qodana.cloud^$dnsrewrite=10.70.95.150
+||continue.dev^$dnsrewrite=10.70.95.150
+||jules.google^$dnsrewrite=10.70.95.150

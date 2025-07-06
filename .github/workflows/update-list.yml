@@ -34,31 +34,37 @@ jobs:
           git commit -m "Update AdguardHomeReWrite-Tunnel2 with latest domains"
           git push
 
-      - name: Generate DynX List and Update Adguard File for antiban server
+      - name: Generate allowed_domains_https.map from DynX-AntiBan-list.lst For NginX
         run: |
-          awk -F'\\^' '{print "||"$1"^$dnsrewrite=104.237.250.13"}' DynX-AntiBan-list.lst > other/AdguardHomeReWrite.txt
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add other/AdguardHomeReWrite.txt
-          git commit -m "Update AdguardHomeReWrite.txt with latest domains"
-          git push
-
-      - name: Generate allowed_domains.conf from DynX-AntiBan-list.lst For NginX
-        run: |
-          echo "map \$ssl_preread_server_name \$allowed_domain {" > other/allowed_domains.conf
-          echo "    default 0.0.0.0:0;" >> other/allowed_domains.conf
+          echo "map \$ssl_preread_server_name \$allowed_domain {" > other/allowed_domains_https.map
+          echo "    default 0.0.0.0:0;" >> other/allowed_domains_https.map
           while IFS= read -r line; do
             domain=$(echo "$line" | cut -d'^' -f1)
-            echo "    ~^(.*\.)?$domain \$ssl_preread_server_name;" >> other/allowed_domains.conf
+            echo "    ~^(.*\\.)?$domain \$ssl_preread_server_name;" >> other/allowed_domains_https.map
           done < DynX-AntiBan-list.lst
-          echo "}" >> other/allowed_domains.conf
+          echo "}" >> other/allowed_domains_https.map
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add other/allowed_domains.conf
-          git commit -m "Update allowed_domains.conf with latest domains"
+          git add other/allowed_domains_https.map
+          git commit -m "Update allowed_domains_https.map with latest domains"
           git push
 
-      - name: Update allowed_domains.conf on server and Reload Nginx
+      - name: Generate allowed_domains_http.map from DynX-AntiBan-list.lst For NginX
+        run: |
+          echo "map \$host \$allowed_host {" > other/allowed_domains_http.map
+          echo "    default 0;" >> other/allowed_domains_http.map
+          while IFS= read -r line; do
+            domain=$(echo "$line" | cut -d'^' -f1)
+            echo "    ~^(.*\\.)?$domain\$ 1;" >> other/allowed_domains_http.map
+          done < DynX-AntiBan-list.lst
+          echo "}" >> other/allowed_domains_http.map
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add other/allowed_domains_http.map
+          git commit -m "Update allowed_domains_http.map with latest domains"
+          git push
+
+      - name: Upload allowed_domains map files to server and Reload Nginx
         uses: appleboy/ssh-action@v1.0.0
         with:
           host: '${{ secrets.SERVER_IP }}'
@@ -66,11 +72,12 @@ jobs:
           password: '${{ secrets.SSH_PASSWORD }}'
           port: '${{ secrets.SSH_PORT }}'
           script: |
-            wget -q https://github.com/MrDevAnony/DynX-AntiBan-Domains/raw/refs/heads/main/other/allowed_domains.conf -O /etc/nginx/allowed_domains.conf
+            wget -q https://github.com/MrDevAnony/DynX-AntiBan-Domains/raw/refs/heads/main/other/allowed_domains_http.map -O /etc/nginx/allowed_http_hosts.map
+            wget -q https://github.com/MrDevAnony/DynX-AntiBan-Domains/raw/refs/heads/main/other/allowed_domains_https.map -O /etc/nginx/allowed_domains_https.map
             nginx -t && systemctl reload nginx
             exit
 
-      - name: Update list and clear cashe in AdguardHome
+      - name: Update list and clear cache in AdguardHome
         run: |
           sleep 5
           ${{ secrets.CMD }}

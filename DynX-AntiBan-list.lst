@@ -1,3 +1,7 @@
+raw.githubusercontent.com
+github.com
+llama.com
+galxe.com
 checks.google.com
 cmf.tech
 nothing.tech
@@ -56,7 +60,6 @@ payments.google.com
 play.google.com
 research.google.com
 services.google.com
-cloud.google.com
 surveys.google.com
 tagmanager.google.com
 time.google.com
@@ -75,7 +78,6 @@ imgur.com
 i.stack.imgur.com
 medium.com
 arcgis.com
-salesforce.com
 gravatar.com
 webex.com
 apache.org
@@ -153,7 +155,6 @@ cnet.com
 mailchimp.com
 constantcontact.com
 figma.com
-mi.com
 grammarly.com
 cpanel.net
 forums.cpanel.net
@@ -1005,18 +1006,18 @@ files.rtl-theme.com
 files.softaculous.com
 files.virtualizor.com
 flexibleshipping.com
-fonts..com
+fonts.com
 ftp.nluug.nl
 ftp.postgresql.org
 get.docker.ir
 getwooplugins.com
 gmail-smtp-in.l.google.com
-gmail..com
+gmail.com
 gravityapi.com
 help.us-themes.com
 httpupdate.cpanel.net
-iid..com
-indexing..com
+iid.com
+indexing.com
 intellywp.com
 ipecho.net
 ir.archive.ubuntu.com
@@ -1071,7 +1072,7 @@ nl.mirrors.clouvider.net
 node-binaries.s3.amazonaws.com
 node.aapanel.com
 novininsta.com
-oauth2..com
+oauth2.com
 objectcache.pro
 ocsp.comodoca.com
 onesignal.com
@@ -1083,7 +1084,7 @@ oteapi.webnic.cc
 packages-eu.bigbluebutton.org
 packages.gitlab.com
 packages.translationspress.com
-pagespeedonline..com
+pagespeedonline.com
 pecl.php.net
 perfectmoney.com
 perfmatters.io
@@ -1123,7 +1124,7 @@ s7.softaculous.com
 s8.softaculous.com
 sandbox-wbapi.thesslstore.com
 scriptsbundle.com
-searchconsole..com
+searchconsole.com
 searchwp.com
 securedownloads.cpanel.net
 security.ubuntu.com
@@ -1134,7 +1135,7 @@ smushpro.wpmudev.org
 softaculous.com
 spamassassin.apache.org
 stats.wp.com
-storage..com
+storage.com
 store.cpanel.net
 store.theplusaddons.com
 sunnytoo.com
@@ -1151,7 +1152,7 @@ tnedi.me
 tp.tax.gov.ir
 tp.wpml.org
 translate.wordpress.org
-type..com
+type.com
 ubuntu.bigbluebutton.org
 upd.merkulov.design
 update.yithemes.com
@@ -1189,7 +1190,7 @@ www.directadmin.com
 www.envato.com
 www.exactmetrics.com
 www.files.virtualizor.com
-www..com
+www.com
 www.gt
 www.ilghera.com
 www.jetpack.com
@@ -1224,7 +1225,7 @@ za.net
 zispa.co.zw
 pes22-game.cs.konami.net
 asus.com
-firebaseremoteconfig..com
+firebaseremoteconfig.com
 pcsupport.lenovo.com
 registry.docker.io
 alexa.amazon.com
@@ -1603,7 +1604,6 @@ yarnpkg.com
 battlecode.org
 vuetifyjs.com
 deployer.org
-fedoraproject.org
 alpinelinux.org
 yajrabox.com
 webcatalog.app
@@ -1646,7 +1646,6 @@ litespeedtech.com
 buf.build
 pkg.jenkins.io
 downloads.arduino.cc
-askubuntu.com
 a2zupload.com
 abuse.ch
 addthis.com
@@ -1739,7 +1738,6 @@ gitconnected.com
 gitlag.com
 gitter.im
 clients5.google.com
-dns.google.com
 clients4.google.com
 clients1.google.com
 clients3.google.com
@@ -1855,7 +1853,6 @@ tv-static.net
 tvcdn.de
 twimg.com
 typekit.net
-connectivity-check.ubuntu.com
 vaultproject.io
 vidyard.com
 vjudge.net
@@ -1979,8 +1976,7 @@ valve.net
 steamstatic.com
 steampowered.com
 steamcommunity.com
-myteamspeak.com
-teamspeak.com
+www.teamspeak.com
 battleye.com
 riotgames.com
 riotcdn.net
@@ -3988,12 +3984,22 @@ a2z.com
 gemini.google
 netify.ai
 pxf.io
-softether-download.com
 framer.com
 bestofai.com
 discord.gg
 discord.com
 spikes.studio
 ai-chat.bsg.brave.com
-datastudios.org
 tutorialspoint.com
+trae.ai
+bnetdocs.org
+datastudios.org
+gpuopen.com
+windsurf.com
+cursor.com
+idx.google.com
+app.cline.bot
+codeassist.google
+qodana.cloud
+continue.dev
+jules.google

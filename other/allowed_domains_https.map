@@ -1,5 +1,9 @@
 map $ssl_preread_server_name $allowed_domain {
     default 0.0.0.0:0;
+    ~^(.*\.)?raw.githubusercontent.com $ssl_preread_server_name;
+    ~^(.*\.)?github.com $ssl_preread_server_name;
+    ~^(.*\.)?llama.com $ssl_preread_server_name;
+    ~^(.*\.)?galxe.com $ssl_preread_server_name;
     ~^(.*\.)?checks.google.com $ssl_preread_server_name;
     ~^(.*\.)?cmf.tech $ssl_preread_server_name;
     ~^(.*\.)?nothing.tech $ssl_preread_server_name;
@@ -58,7 +62,6 @@ map $ssl_preread_server_name $allowed_domain {
     ~^(.*\.)?play.google.com $ssl_preread_server_name;
     ~^(.*\.)?research.google.com $ssl_preread_server_name;
     ~^(.*\.)?services.google.com $ssl_preread_server_name;
-    ~^(.*\.)?cloud.google.com $ssl_preread_server_name;
     ~^(.*\.)?surveys.google.com $ssl_preread_server_name;
     ~^(.*\.)?tagmanager.google.com $ssl_preread_server_name;
     ~^(.*\.)?time.google.com $ssl_preread_server_name;
@@ -77,7 +80,6 @@ map $ssl_preread_server_name $allowed_domain {
     ~^(.*\.)?i.stack.imgur.com $ssl_preread_server_name;
     ~^(.*\.)?medium.com $ssl_preread_server_name;
     ~^(.*\.)?arcgis.com $ssl_preread_server_name;
-    ~^(.*\.)?salesforce.com $ssl_preread_server_name;
     ~^(.*\.)?gravatar.com $ssl_preread_server_name;
     ~^(.*\.)?webex.com $ssl_preread_server_name;
     ~^(.*\.)?apache.org $ssl_preread_server_name;
@@ -155,7 +157,6 @@ map $ssl_preread_server_name $allowed_domain {
     ~^(.*\.)?mailchimp.com $ssl_preread_server_name;
     ~^(.*\.)?constantcontact.com $ssl_preread_server_name;
     ~^(.*\.)?figma.com $ssl_preread_server_name;
-    ~^(.*\.)?mi.com $ssl_preread_server_name;
     ~^(.*\.)?grammarly.com $ssl_preread_server_name;
     ~^(.*\.)?cpanel.net $ssl_preread_server_name;
     ~^(.*\.)?forums.cpanel.net $ssl_preread_server_name;
@@ -1007,18 +1008,18 @@ map $ssl_preread_server_name $allowed_domain {
     ~^(.*\.)?files.softaculous.com $ssl_preread_server_name;
     ~^(.*\.)?files.virtualizor.com $ssl_preread_server_name;
     ~^(.*\.)?flexibleshipping.com $ssl_preread_server_name;
-    ~^(.*\.)?fonts..com $ssl_preread_server_name;
+    ~^(.*\.)?fonts.com $ssl_preread_server_name;
     ~^(.*\.)?ftp.nluug.nl $ssl_preread_server_name;
     ~^(.*\.)?ftp.postgresql.org $ssl_preread_server_name;
     ~^(.*\.)?get.docker.ir $ssl_preread_server_name;
     ~^(.*\.)?getwooplugins.com $ssl_preread_server_name;
     ~^(.*\.)?gmail-smtp-in.l.google.com $ssl_preread_server_name;
-    ~^(.*\.)?gmail..com $ssl_preread_server_name;
+    ~^(.*\.)?gmail.com $ssl_preread_server_name;
     ~^(.*\.)?gravityapi.com $ssl_preread_server_name;
     ~^(.*\.)?help.us-themes.com $ssl_preread_server_name;
     ~^(.*\.)?httpupdate.cpanel.net $ssl_preread_server_name;
-    ~^(.*\.)?iid..com $ssl_preread_server_name;
-    ~^(.*\.)?indexing..com $ssl_preread_server_name;
+    ~^(.*\.)?iid.com $ssl_preread_server_name;
+    ~^(.*\.)?indexing.com $ssl_preread_server_name;
     ~^(.*\.)?intellywp.com $ssl_preread_server_name;
     ~^(.*\.)?ipecho.net $ssl_preread_server_name;
     ~^(.*\.)?ir.archive.ubuntu.com $ssl_preread_server_name;
@@ -1073,7 +1074,7 @@ map $ssl_preread_server_name $allowed_domain {
     ~^(.*\.)?node-binaries.s3.amazonaws.com $ssl_preread_server_name;
     ~^(.*\.)?node.aapanel.com $ssl_preread_server_name;
     ~^(.*\.)?novininsta.com $ssl_preread_server_name;
-    ~^(.*\.)?oauth2..com $ssl_preread_server_name;
+    ~^(.*\.)?oauth2.com $ssl_preread_server_name;
     ~^(.*\.)?objectcache.pro $ssl_preread_server_name;
     ~^(.*\.)?ocsp.comodoca.com $ssl_preread_server_name;
     ~^(.*\.)?onesignal.com $ssl_preread_server_name;
@@ -1085,7 +1086,7 @@ map $ssl_preread_server_name $allowed_domain {
     ~^(.*\.)?packages-eu.bigbluebutton.org $ssl_preread_server_name;
     ~^(.*\.)?packages.gitlab.com $ssl_preread_server_name;
     ~^(.*\.)?packages.translationspress.com $ssl_preread_server_name;
-    ~^(.*\.)?pagespeedonline..com $ssl_preread_server_name;
+    ~^(.*\.)?pagespeedonline.com $ssl_preread_server_name;
     ~^(.*\.)?pecl.php.net $ssl_preread_server_name;
     ~^(.*\.)?perfectmoney.com $ssl_preread_server_name;
     ~^(.*\.)?perfmatters.io $ssl_preread_server_name;
@@ -1125,7 +1126,7 @@ map $ssl_preread_server_name $allowed_domain {
     ~^(.*\.)?s8.softaculous.com $ssl_preread_server_name;
     ~^(.*\.)?sandbox-wbapi.thesslstore.com $ssl_preread_server_name;
     ~^(.*\.)?scriptsbundle.com $ssl_preread_server_name;
-    ~^(.*\.)?searchconsole..com $ssl_preread_server_name;
+    ~^(.*\.)?searchconsole.com $ssl_preread_server_name;
     ~^(.*\.)?searchwp.com $ssl_preread_server_name;
     ~^(.*\.)?securedownloads.cpanel.net $ssl_preread_server_name;
     ~^(.*\.)?security.ubuntu.com $ssl_preread_server_name;
@@ -1136,7 +1137,7 @@ map $ssl_preread_server_name $allowed_domain {
     ~^(.*\.)?softaculous.com $ssl_preread_server_name;
     ~^(.*\.)?spamassassin.apache.org $ssl_preread_server_name;
     ~^(.*\.)?stats.wp.com $ssl_preread_server_name;
-    ~^(.*\.)?storage..com $ssl_preread_server_name;
+    ~^(.*\.)?storage.com $ssl_preread_server_name;
     ~^(.*\.)?store.cpanel.net $ssl_preread_server_name;
     ~^(.*\.)?store.theplusaddons.com $ssl_preread_server_name;
     ~^(.*\.)?sunnytoo.com $ssl_preread_server_name;
@@ -1153,7 +1154,7 @@ map $ssl_preread_server_name $allowed_domain {
     ~^(.*\.)?tp.tax.gov.ir $ssl_preread_server_name;
     ~^(.*\.)?tp.wpml.org $ssl_preread_server_name;
     ~^(.*\.)?translate.wordpress.org $ssl_preread_server_name;
-    ~^(.*\.)?type..com $ssl_preread_server_name;
+    ~^(.*\.)?type.com $ssl_preread_server_name;
     ~^(.*\.)?ubuntu.bigbluebutton.org $ssl_preread_server_name;
     ~^(.*\.)?upd.merkulov.design $ssl_preread_server_name;
     ~^(.*\.)?update.yithemes.com $ssl_preread_server_name;
@@ -1191,7 +1192,7 @@ map $ssl_preread_server_name $allowed_domain {
     ~^(.*\.)?www.envato.com $ssl_preread_server_name;
     ~^(.*\.)?www.exactmetrics.com $ssl_preread_server_name;
     ~^(.*\.)?www.files.virtualizor.com $ssl_preread_server_name;
-    ~^(.*\.)?www..com $ssl_preread_server_name;
+    ~^(.*\.)?www.com $ssl_preread_server_name;
     ~^(.*\.)?www.gt $ssl_preread_server_name;
     ~^(.*\.)?www.ilghera.com $ssl_preread_server_name;
     ~^(.*\.)?www.jetpack.com $ssl_preread_server_name;
@@ -1226,7 +1227,7 @@ map $ssl_preread_server_name $allowed_domain {
     ~^(.*\.)?zispa.co.zw $ssl_preread_server_name;
     ~^(.*\.)?pes22-game.cs.konami.net $ssl_preread_server_name;
     ~^(.*\.)?asus.com $ssl_preread_server_name;
-    ~^(.*\.)?firebaseremoteconfig..com $ssl_preread_server_name;
+    ~^(.*\.)?firebaseremoteconfig.com $ssl_preread_server_name;
     ~^(.*\.)?pcsupport.lenovo.com $ssl_preread_server_name;
     ~^(.*\.)?registry.docker.io $ssl_preread_server_name;
     ~^(.*\.)?alexa.amazon.com $ssl_preread_server_name;
@@ -1605,7 +1606,6 @@ map $ssl_preread_server_name $allowed_domain {
     ~^(.*\.)?battlecode.org $ssl_preread_server_name;
     ~^(.*\.)?vuetifyjs.com $ssl_preread_server_name;
     ~^(.*\.)?deployer.org $ssl_preread_server_name;
-    ~^(.*\.)?fedoraproject.org $ssl_preread_server_name;
     ~^(.*\.)?alpinelinux.org $ssl_preread_server_name;
     ~^(.*\.)?yajrabox.com $ssl_preread_server_name;
     ~^(.*\.)?webcatalog.app $ssl_preread_server_name;
@@ -1648,7 +1648,6 @@ map $ssl_preread_server_name $allowed_domain {
     ~^(.*\.)?buf.build $ssl_preread_server_name;
     ~^(.*\.)?pkg.jenkins.io $ssl_preread_server_name;
     ~^(.*\.)?downloads.arduino.cc $ssl_preread_server_name;
-    ~^(.*\.)?askubuntu.com $ssl_preread_server_name;
     ~^(.*\.)?a2zupload.com $ssl_preread_server_name;
     ~^(.*\.)?abuse.ch $ssl_preread_server_name;
     ~^(.*\.)?addthis.com $ssl_preread_server_name;
@@ -1741,7 +1740,6 @@ map $ssl_preread_server_name $allowed_domain {
     ~^(.*\.)?gitlag.com $ssl_preread_server_name;
     ~^(.*\.)?gitter.im $ssl_preread_server_name;
     ~^(.*\.)?clients5.google.com $ssl_preread_server_name;
-    ~^(.*\.)?dns.google.com $ssl_preread_server_name;
     ~^(.*\.)?clients4.google.com $ssl_preread_server_name;
     ~^(.*\.)?clients1.google.com $ssl_preread_server_name;
     ~^(.*\.)?clients3.google.com $ssl_preread_server_name;
@@ -1857,7 +1855,6 @@ map $ssl_preread_server_name $allowed_domain {
     ~^(.*\.)?tvcdn.de $ssl_preread_server_name;
     ~^(.*\.)?twimg.com $ssl_preread_server_name;
     ~^(.*\.)?typekit.net $ssl_preread_server_name;
-    ~^(.*\.)?connectivity-check.ubuntu.com $ssl_preread_server_name;
     ~^(.*\.)?vaultproject.io $ssl_preread_server_name;
     ~^(.*\.)?vidyard.com $ssl_preread_server_name;
     ~^(.*\.)?vjudge.net $ssl_preread_server_name;
@@ -1981,8 +1978,7 @@ map $ssl_preread_server_name $allowed_domain {
     ~^(.*\.)?steamstatic.com $ssl_preread_server_name;
     ~^(.*\.)?steampowered.com $ssl_preread_server_name;
     ~^(.*\.)?steamcommunity.com $ssl_preread_server_name;
-    ~^(.*\.)?myteamspeak.com $ssl_preread_server_name;
-    ~^(.*\.)?teamspeak.com $ssl_preread_server_name;
+    ~^(.*\.)?www.teamspeak.com $ssl_preread_server_name;
     ~^(.*\.)?battleye.com $ssl_preread_server_name;
     ~^(.*\.)?riotgames.com $ssl_preread_server_name;
     ~^(.*\.)?riotcdn.net $ssl_preread_server_name;
@@ -3990,9 +3986,22 @@ map $ssl_preread_server_name $allowed_domain {
     ~^(.*\.)?gemini.google $ssl_preread_server_name;
     ~^(.*\.)?netify.ai $ssl_preread_server_name;
     ~^(.*\.)?pxf.io $ssl_preread_server_name;
-    ~^(.*\.)?softether-download.com $ssl_preread_server_name;
     ~^(.*\.)?framer.com $ssl_preread_server_name;
     ~^(.*\.)?bestofai.com $ssl_preread_server_name;
     ~^(.*\.)?discord.gg $ssl_preread_server_name;
     ~^(.*\.)?discord.com $ssl_preread_server_name;
+    ~^(.*\.)?spikes.studio $ssl_preread_server_name;
+    ~^(.*\.)?ai-chat.bsg.brave.com $ssl_preread_server_name;
+    ~^(.*\.)?trae.ai $ssl_preread_server_name;
+    ~^(.*\.)?bnetdocs.org $ssl_preread_server_name;
+    ~^(.*\.)?datastudios.org $ssl_preread_server_name;
+    ~^(.*\.)?gpuopen.com $ssl_preread_server_name;
+    ~^(.*\.)?windsurf.com $ssl_preread_server_name;
+    ~^(.*\.)?cursor.com $ssl_preread_server_name;
+    ~^(.*\.)?idx.google.com $ssl_preread_server_name;
+    ~^(.*\.)?app.cline.bot $ssl_preread_server_name;
+    ~^(.*\.)?codeassist.google $ssl_preread_server_name;
+    ~^(.*\.)?qodana.cloud $ssl_preread_server_name;
+    ~^(.*\.)?continue.dev $ssl_preread_server_name;
+    ~^(.*\.)?jules.google $ssl_preread_server_name;
 }
