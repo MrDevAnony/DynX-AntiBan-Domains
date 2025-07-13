@@ -1,5 +1,6 @@
 map $host $allowed_host {
     default 0;
+    ~^(.*\.)?mariadb.com$ 1;
     ~^(.*\.)?raw.githubusercontent.com$ 1;
     ~^(.*\.)?github.com$ 1;
     ~^(.*\.)?llama.com$ 1;

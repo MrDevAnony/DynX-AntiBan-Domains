@@ -1,3 +1,4 @@
+||mariadb.com^$dnsrewrite=10.70.95.150
 ||raw.githubusercontent.com^$dnsrewrite=10.70.95.150
 ||github.com^$dnsrewrite=10.70.95.150
 ||llama.com^$dnsrewrite=10.70.95.150

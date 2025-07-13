@@ -1,5 +1,6 @@
 map $ssl_preread_server_name $allowed_domain {
     default 0.0.0.0:0;
+    ~^(.*\.)?mariadb.com $ssl_preread_server_name;
     ~^(.*\.)?raw.githubusercontent.com $ssl_preread_server_name;
     ~^(.*\.)?github.com $ssl_preread_server_name;
     ~^(.*\.)?llama.com $ssl_preread_server_name;
