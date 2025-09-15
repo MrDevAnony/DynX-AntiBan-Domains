@@ -1,10 +1,5 @@
 map $host $allowed_host {
     default 0;
-    ~^(.*\.)?windsurf.com$ 1;
-    ~^(.*\.)?cdp.cloud.unity3d.com$ 1;
-    ~^(.*\.)?gcams1128.exitgames.com$ 1;
-    ~^(.*\.)?bdff1.playfabapi.com$ 1;
-    ~^(.*\.)?ns.photonengine.io$ 1;
     ~^(.*\.)?de.archive.ubuntu.com$ 1;
     ~^(.*\.)?report.ml.youngjoygame.com$ 1;
     ~^(.*\.)?login.ml.youngjoygame.com$ 1;
@@ -854,10 +849,6 @@ map $host $allowed_host {
     ~^(.*\.)?repo.mysql.com$ 1;
     ~^(.*\.)?packages.cloud.google.com$ 1;
     ~^(.*\.)?apt.kubernetes.io$ 1;
-    ~^(.*\.)?dgivdslhqe3qo.cloudfront.net$ 1;
-    ~^(.*\.)?d36jcksde1wxzq.cloudfront.net$ 1;
-    ~^(.*\.)?d2wy8f7a9ursnm.cloudfront.net$ 1;
-    ~^(.*\.)?d20hvw4zeymqbm.cloudfront.net$ 1;
     ~^(.*\.)?intel.de$ 1;
     ~^(.*\.)?blogs.vmware.com$ 1;
     ~^(.*\.)?kb.vmware.com$ 1;
@@ -1079,7 +1070,6 @@ map $host $allowed_host {
     ~^(.*\.)?nextendweb.com$ 1;
     ~^(.*\.)?ngrok.io$ 1;
     ~^(.*\.)?ninjateam.org$ 1;
-    ~^(.*\.)?nip.io$ 1;
     ~^(.*\.)?nl.mirrors.clouvider.net$ 1;
     ~^(.*\.)?node-binaries.s3.amazonaws.com$ 1;
     ~^(.*\.)?node.aapanel.com$ 1;
@@ -1928,7 +1918,6 @@ map $host $allowed_host {
     ~^(.*\.)?issabel.org$ 1;
     ~^(.*\.)?issabel.com$ 1;
     ~^(.*\.)?oaistatic.com$ 1;
-    ~^(.*\.)?d2iks1dkcwqcbx.cloudfront.net$ 1;
     ~^(.*\.)?soundcore.com$ 1;
     ~^(.*\.)?anker.com$ 1;
     ~^(.*\.)?veritas.com$ 1;
@@ -2013,7 +2002,6 @@ map $host $allowed_host {
     ~^(.*\.)?ipsoft.com$ 1;
     ~^(.*\.)?ypsitownship.org$ 1;
     ~^(.*\.)?bestjobs.eu$ 1;
-    ~^(.*\.)?8800-bet.com$ 1;
     ~^(.*\.)?bk-pinco.ru$ 1;
     ~^(.*\.)?elitelawyer.com$ 1;
     ~^(.*\.)?ecomdash.com$ 1;
@@ -2140,7 +2128,6 @@ map $host $allowed_host {
     ~^(.*\.)?pelicans.fi$ 1;
     ~^(.*\.)?americanfarriers.org$ 1;
     ~^(.*\.)?energiavirasto.fi$ 1;
-    ~^(.*\.)?betterblock.org$ 1;
     ~^(.*\.)?mobilbahis.one$ 1;
     ~^(.*\.)?hobiesurfshop.com$ 1;
     ~^(.*\.)?lanakk.com$ 1;
@@ -2161,7 +2148,6 @@ map $host $allowed_host {
     ~^(.*\.)?independer.nl$ 1;
     ~^(.*\.)?findamasters.com$ 1;
     ~^(.*\.)?willowbayaustralia.com$ 1;
-    ~^(.*\.)?mostbetuzplay.com$ 1;
     ~^(.*\.)?apothic.com$ 1;
     ~^(.*\.)?infd.edu.ar$ 1;
     ~^(.*\.)?pandawin7.com$ 1;
@@ -2191,7 +2177,6 @@ map $host $allowed_host {
     ~^(.*\.)?puroclean.com$ 1;
     ~^(.*\.)?citeworld.com$ 1;
     ~^(.*\.)?aedo.org.br$ 1;
-    ~^(.*\.)?pin-up-bet-casinoonline.com$ 1;
     ~^(.*\.)?milkandhoneycoffeehouses.com$ 1;
     ~^(.*\.)?aesociety.org$ 1;
     ~^(.*\.)?romanlabel.com$ 1;
@@ -2386,7 +2371,7 @@ map $host $allowed_host {
     ~^(.*\.)?mactools.com$ 1;
     ~^(.*\.)?favecrafts.com$ 1;
     ~^(.*\.)?stjosephmuseum.org$ 1;
-    ~^(.*\.)?1xbetmobil1.com$ 1;
+    ~^(.*\.)?$ 1;
     ~^(.*\.)?vistaprint.nl$ 1;
     ~^(.*\.)?coneyislandfunguide.com$ 1;
     ~^(.*\.)?shopdunkin.com$ 1;
@@ -2416,7 +2401,6 @@ map $host $allowed_host {
     ~^(.*\.)?vorticwatches.com$ 1;
     ~^(.*\.)?ryanhoover.me$ 1;
     ~^(.*\.)?metier.com$ 1;
-    ~^(.*\.)?seubet-br.com$ 1;
     ~^(.*\.)?thehealthyfoodie.com$ 1;
     ~^(.*\.)?ticketland.ru$ 1;
     ~^(.*\.)?pbr.co.uk$ 1;
@@ -2480,14 +2464,12 @@ map $host $allowed_host {
     ~^(.*\.)?iampsychiatry.com$ 1;
     ~^(.*\.)?game.co.uk$ 1;
     ~^(.*\.)?toolbox.com$ 1;
-    ~^(.*\.)?pinupbet-uz.com$ 1;
     ~^(.*\.)?ekahau.com$ 1;
     ~^(.*\.)?peelorange.com$ 1;
     ~^(.*\.)?download-app-pinup.ru$ 1;
     ~^(.*\.)?tartepink.com$ 1;
     ~^(.*\.)?point3gear.com$ 1;
     ~^(.*\.)?yellowbustours.com$ 1;
-    ~^(.*\.)?1xbet-skachat-mobile.ru$ 1;
     ~^(.*\.)?serpent-shop.com$ 1;
     ~^(.*\.)?taskrabbit.com$ 1;
     ~^(.*\.)?iahsaa.org$ 1;
@@ -2502,7 +2484,6 @@ map $host $allowed_host {
     ~^(.*\.)?revistaveredas.com.br$ 1;
     ~^(.*\.)?stateline.org$ 1;
     ~^(.*\.)?bcscschools.org$ 1;
-    ~^(.*\.)?ggbets.co$ 1;
     ~^(.*\.)?treatments.cf$ 1;
     ~^(.*\.)?ncsbn.org$ 1;
     ~^(.*\.)?istanbulescortnet.com$ 1;
@@ -2534,7 +2515,6 @@ map $host $allowed_host {
     ~^(.*\.)?kaufleuten.ch$ 1;
     ~^(.*\.)?cityofgriffin.com$ 1;
     ~^(.*\.)?payiw.com$ 1;
-    ~^(.*\.)?fixbetgiris.click$ 1;
     ~^(.*\.)?npg.org.uk$ 1;
     ~^(.*\.)?boattrader.com$ 1;
     ~^(.*\.)?naomedical.com$ 1;
@@ -2881,7 +2861,6 @@ map $host $allowed_host {
     ~^(.*\.)?leket.org$ 1;
     ~^(.*\.)?kidsgrowth.com$ 1;
     ~^(.*\.)?clarins.ca$ 1;
-    ~^(.*\.)?mostbetonline.pk$ 1;
     ~^(.*\.)?nailberry.co.uk$ 1;
     ~^(.*\.)?novipnoad.net$ 1;
     ~^(.*\.)?amuse.com$ 1;
@@ -2907,7 +2886,6 @@ map $host $allowed_host {
     ~^(.*\.)?colegiodelabici.edu.co$ 1;
     ~^(.*\.)?trubrain.com$ 1;
     ~^(.*\.)?adkad.com$ 1;
-    ~^(.*\.)?1xbetmorocco1.com$ 1;
     ~^(.*\.)?tribuneindia.com$ 1;
     ~^(.*\.)?takoutny.com$ 1;
     ~^(.*\.)?skinpixel.co.uk$ 1;
@@ -2915,7 +2893,6 @@ map $host $allowed_host {
     ~^(.*\.)?ocalafl.gov$ 1;
     ~^(.*\.)?fridaysforfuturebrasil.org$ 1;
     ~^(.*\.)?nichibei.org$ 1;
-    ~^(.*\.)?betandyoutr.com$ 1;
     ~^(.*\.)?picknweight.de$ 1;
     ~^(.*\.)?dmww.com$ 1;
     ~^(.*\.)?mypersonaltrainerwebsite.com$ 1;
@@ -2958,7 +2935,6 @@ map $host $allowed_host {
     ~^(.*\.)?bas-ip.ru$ 1;
     ~^(.*\.)?feedz.com.br$ 1;
     ~^(.*\.)?washtimes.com$ 1;
-    ~^(.*\.)?betragiris.icu$ 1;
     ~^(.*\.)?riocokidswear.com$ 1;
     ~^(.*\.)?vonage.co.uk$ 1;
     ~^(.*\.)?electrickicks.com.au$ 1;
@@ -2976,7 +2952,6 @@ map $host $allowed_host {
     ~^(.*\.)?risco.ro$ 1;
     ~^(.*\.)?mrpennarak.com$ 1;
     ~^(.*\.)?huemor.rocks$ 1;
-    ~^(.*\.)?giris-mariobet.com$ 1;
     ~^(.*\.)?amorequi.net$ 1;
     ~^(.*\.)?level1productions.com$ 1;
     ~^(.*\.)?bronto.com$ 1;
@@ -2986,7 +2961,6 @@ map $host $allowed_host {
     ~^(.*\.)?sootthaengball.com$ 1;
     ~^(.*\.)?fnmgroup.it$ 1;
     ~^(.*\.)?monaco-chicago.com$ 1;
-    ~^(.*\.)?ambbets.com$ 1;
     ~^(.*\.)?lrmer.com$ 1;
     ~^(.*\.)?famousinreal.life$ 1;
     ~^(.*\.)?gud2know.com$ 1;
@@ -3011,7 +2985,6 @@ map $host $allowed_host {
     ~^(.*\.)?localgirlhookup.org$ 1;
     ~^(.*\.)?skillfulteaching.com$ 1;
     ~^(.*\.)?budapestmarkethall.com$ 1;
-    ~^(.*\.)?1xbetbangladesh.click$ 1;
     ~^(.*\.)?sdkells.co.uk$ 1;
     ~^(.*\.)?lnm.lt$ 1;
     ~^(.*\.)?japannext.com$ 1;
@@ -3069,7 +3042,6 @@ map $host $allowed_host {
     ~^(.*\.)?ariadneathome.nl$ 1;
     ~^(.*\.)?peru-retail.com$ 1;
     ~^(.*\.)?sabrinascloset.com$ 1;
-    ~^(.*\.)?mostbetuzbekiston.com$ 1;
     ~^(.*\.)?casinos-argentino.com$ 1;
     ~^(.*\.)?giro.com$ 1;
     ~^(.*\.)?jokerscostumemegastore.com.au$ 1;
@@ -3085,9 +3057,7 @@ map $host $allowed_host {
     ~^(.*\.)?reluctanttrading.com$ 1;
     ~^(.*\.)?killerstartups.com$ 1;
     ~^(.*\.)?flvetbehavior.com$ 1;
-    ~^(.*\.)?mostbetuzoyin.com$ 1;
     ~^(.*\.)?divinechocolateusa.com$ 1;
-    ~^(.*\.)?tambet.sbs$ 1;
     ~^(.*\.)?happytailpuppies.com$ 1;
     ~^(.*\.)?nxnews.net$ 1;
     ~^(.*\.)?routeone.net$ 1;
@@ -3095,7 +3065,6 @@ map $host $allowed_host {
     ~^(.*\.)?theboxsf.com$ 1;
     ~^(.*\.)?fifaindex.com$ 1;
     ~^(.*\.)?twohandspaperie.com$ 1;
-    ~^(.*\.)?hititbetgiris.xyz$ 1;
     ~^(.*\.)?bklyn-genealogy-info.com$ 1;
     ~^(.*\.)?nova24tv.si$ 1;
     ~^(.*\.)?smalofts.co.uk$ 1;
@@ -3148,7 +3117,6 @@ map $host $allowed_host {
     ~^(.*\.)?coladaily.com$ 1;
     ~^(.*\.)?greenmountaindiapers.com$ 1;
     ~^(.*\.)?eesystem.com$ 1;
-    ~^(.*\.)?rinabet.click$ 1;
     ~^(.*\.)?clothedwithtruth.com$ 1;
     ~^(.*\.)?foreignaffairs.gov.mt$ 1;
     ~^(.*\.)?edelmanfinancialengines.com$ 1;
@@ -3159,7 +3127,6 @@ map $host $allowed_host {
     ~^(.*\.)?onecondoms.com$ 1;
     ~^(.*\.)?paradigmadigital.com$ 1;
     ~^(.*\.)?lilly.es$ 1;
-    ~^(.*\.)?betti-casino-uk.com$ 1;
     ~^(.*\.)?jack-wolfskin.de$ 1;
     ~^(.*\.)?canvas4everyone.com$ 1;
     ~^(.*\.)?goeuro.com$ 1;
@@ -3191,7 +3158,6 @@ map $host $allowed_host {
     ~^(.*\.)?thestateless.com$ 1;
     ~^(.*\.)?mbokmu.one$ 1;
     ~^(.*\.)?peoplescaremedicalsupply.shop$ 1;
-    ~^(.*\.)?bekabet.cfd$ 1;
     ~^(.*\.)?accutane.one$ 1;
     ~^(.*\.)?igamingbrazil.com$ 1;
     ~^(.*\.)?bitchesgirlz.com$ 1;
@@ -3216,14 +3182,12 @@ map $host $allowed_host {
     ~^(.*\.)?decathlon.it$ 1;
     ~^(.*\.)?chizhouwenhua.com$ 1;
     ~^(.*\.)?eurosiz.ua$ 1;
-    ~^(.*\.)?melbet-sportsbook.com$ 1;
     ~^(.*\.)?visionlab.es$ 1;
     ~^(.*\.)?shudder.com$ 1;
     ~^(.*\.)?burnt.com$ 1;
     ~^(.*\.)?essexkilns.com$ 1;
     ~^(.*\.)?makerflocrafts.com$ 1;
     ~^(.*\.)?ttsdschools.org$ 1;
-    ~^(.*\.)?fabet.ink$ 1;
     ~^(.*\.)?ibankcoin.com$ 1;
     ~^(.*\.)?bikester.fr$ 1;
     ~^(.*\.)?calltothepen.com$ 1;
@@ -3253,7 +3217,6 @@ map $host $allowed_host {
     ~^(.*\.)?lacabra.dk$ 1;
     ~^(.*\.)?zooplus.se$ 1;
     ~^(.*\.)?everythingfor420.com$ 1;
-    ~^(.*\.)?ko1xbet.com$ 1;
     ~^(.*\.)?cancersupportcommunity.org$ 1;
     ~^(.*\.)?chordtela.com$ 1;
     ~^(.*\.)?chainsawr.com$ 1;
@@ -3262,7 +3225,6 @@ map $host $allowed_host {
     ~^(.*\.)?crazydomains.co.uk$ 1;
     ~^(.*\.)?wells.pt$ 1;
     ~^(.*\.)?footlocker.com.eg$ 1;
-    ~^(.*\.)?india1xbet-apk.com$ 1;
     ~^(.*\.)?thebabysroom.co$ 1;
     ~^(.*\.)?facetdermatology.com$ 1;
     ~^(.*\.)?creationinfoplus.com$ 1;
@@ -3274,7 +3236,6 @@ map $host $allowed_host {
     ~^(.*\.)?maandhan.in$ 1;
     ~^(.*\.)?gymnasium4.ru$ 1;
     ~^(.*\.)?elegantbridal.com$ 1;
-    ~^(.*\.)?orangesherbet.com.au$ 1;
     ~^(.*\.)?readingglasses.com$ 1;
     ~^(.*\.)?kidneyregistry.org$ 1;
     ~^(.*\.)?azdigi.com$ 1;
@@ -3292,7 +3253,6 @@ map $host $allowed_host {
     ~^(.*\.)?bathtubginnyc.com$ 1;
     ~^(.*\.)?dimmakcollection.com$ 1;
     ~^(.*\.)?petmeds.com$ 1;
-    ~^(.*\.)?8kbets.best$ 1;
     ~^(.*\.)?menstuxedousa.com$ 1;
     ~^(.*\.)?hyped.sg$ 1;
     ~^(.*\.)?acate.com.br$ 1;
@@ -3387,7 +3347,6 @@ map $host $allowed_host {
     ~^(.*\.)?wowtv.de$ 1;
     ~^(.*\.)?icebarrel.com$ 1;
     ~^(.*\.)?yodayo.com$ 1;
-    ~^(.*\.)?dumanbetyenigiris.com$ 1;
     ~^(.*\.)?sip-scootershop.com$ 1;
     ~^(.*\.)?shoethebear.us$ 1;
     ~^(.*\.)?sundayswagger.com$ 1;
@@ -3395,7 +3354,6 @@ map $host $allowed_host {
     ~^(.*\.)?matthewkeys.net$ 1;
     ~^(.*\.)?hemptons.co.za$ 1;
     ~^(.*\.)?gcyouthministries.org$ 1;
-    ~^(.*\.)?mostbetnorwayonline.com$ 1;
     ~^(.*\.)?idagent.com$ 1;
     ~^(.*\.)?digitec.ch$ 1;
     ~^(.*\.)?jobstreet.com.my$ 1;
@@ -3434,9 +3392,7 @@ map $host $allowed_host {
     ~^(.*\.)?vastrachowk.com$ 1;
     ~^(.*\.)?eucasinoutansvensklicens.se$ 1;
     ~^(.*\.)?nspower.ca$ 1;
-    ~^(.*\.)?news-mostbet-es.com$ 1;
     ~^(.*\.)?basicslife.com$ 1;
-    ~^(.*\.)?diabetesjournals.org$ 1;
     ~^(.*\.)?henglianmx.com$ 1;
     ~^(.*\.)?shefit.com$ 1;
     ~^(.*\.)?overboardcanada.ca$ 1;
@@ -3446,12 +3402,10 @@ map $host $allowed_host {
     ~^(.*\.)?fanbase.com$ 1;
     ~^(.*\.)?geyanw.com$ 1;
     ~^(.*\.)?radk.ru$ 1;
-    ~^(.*\.)?mrbet-de.com$ 1;
     ~^(.*\.)?janesnyderart.com$ 1;
     ~^(.*\.)?maisonmartinmargiela.com$ 1;
     ~^(.*\.)?nmaam.org$ 1;
     ~^(.*\.)?rpxcorp.com$ 1;
-    ~^(.*\.)?mariobet-casinos.com$ 1;
     ~^(.*\.)?mypamperedlifeseattle.com$ 1;
     ~^(.*\.)?poochandmutt.co.uk$ 1;
     ~^(.*\.)?new-line.com$ 1;
@@ -3465,7 +3419,6 @@ map $host $allowed_host {
     ~^(.*\.)?lilylolo.co.uk$ 1;
     ~^(.*\.)?mcwcasino.club$ 1;
     ~^(.*\.)?fb68.technology$ 1;
-    ~^(.*\.)?mostbetaz777.com$ 1;
     ~^(.*\.)?addtelegrammember.com$ 1;
     ~^(.*\.)?lifehousemusic.com$ 1;
     ~^(.*\.)?trainline.eu$ 1;
@@ -3540,14 +3493,12 @@ map $host $allowed_host {
     ~^(.*\.)?jupiterbahis.sbs$ 1;
     ~^(.*\.)?accuplacer.org$ 1;
     ~^(.*\.)?helloprenup.com$ 1;
-    ~^(.*\.)?1xbet-skachat-new.ru$ 1;
     ~^(.*\.)?xdsbikeco.com$ 1;
     ~^(.*\.)?unex-tech.com$ 1;
     ~^(.*\.)?sea-ny.com$ 1;
     ~^(.*\.)?trufflesuite.com$ 1;
     ~^(.*\.)?premium-akadeule.de$ 1;
     ~^(.*\.)?dewacsn889.org$ 1;
-    ~^(.*\.)?cratosroyalbet.lat$ 1;
     ~^(.*\.)?bluecompassrv.com$ 1;
     ~^(.*\.)?hitraveltales.com$ 1;
     ~^(.*\.)?lastmilepev.com$ 1;
@@ -3617,7 +3568,6 @@ map $host $allowed_host {
     ~^(.*\.)?funenokagakukan.or.jp$ 1;
     ~^(.*\.)?moonmagic.com$ 1;
     ~^(.*\.)?rothschildandco.com$ 1;
-    ~^(.*\.)?fonbet-stavki-apk.ru$ 1;
     ~^(.*\.)?buybrakes.com$ 1;
     ~^(.*\.)?territoryfoods.com$ 1;
     ~^(.*\.)?wildone.com$ 1;
@@ -3633,7 +3583,6 @@ map $host $allowed_host {
     ~^(.*\.)?filmmodu.nl$ 1;
     ~^(.*\.)?replicawatches.mx$ 1;
     ~^(.*\.)?fivem-mods.com$ 1;
-    ~^(.*\.)?tarafbetgiris.click$ 1;
     ~^(.*\.)?absolutelykona.com$ 1;
     ~^(.*\.)?davenportiowa.com$ 1;
     ~^(.*\.)?autossegredos.com.br$ 1;
@@ -3652,7 +3601,6 @@ map $host $allowed_host {
     ~^(.*\.)?coyotecafe.com$ 1;
     ~^(.*\.)?letsmakeaplan.org$ 1;
     ~^(.*\.)?easyapplianceparts.com$ 1;
-    ~^(.*\.)?grbets.xyz$ 1;
     ~^(.*\.)?pyrex.eu$ 1;
     ~^(.*\.)?fully.com$ 1;
     ~^(.*\.)?tidelift.com$ 1;
@@ -3746,9 +3694,7 @@ map $host $allowed_host {
     ~^(.*\.)?marloushoes.com$ 1;
     ~^(.*\.)?makerworld.com$ 1;
     ~^(.*\.)?myfamilymobile.com$ 1;
-    ~^(.*\.)?mostbettopz.com$ 1;
     ~^(.*\.)?evolution-house.ru$ 1;
-    ~^(.*\.)?betti-uklogin.com$ 1;
     ~^(.*\.)?thuisschoonmaken.nl$ 1;
     ~^(.*\.)?crepmovement.com$ 1;
     ~^(.*\.)?7uu.net$ 1;
@@ -3762,7 +3708,6 @@ map $host $allowed_host {
     ~^(.*\.)?vinos.de$ 1;
     ~^(.*\.)?idyllwind.com$ 1;
     ~^(.*\.)?mcguirearmynavy.com$ 1;
-    ~^(.*\.)?casino-bet-pin-up-br.com$ 1;
     ~^(.*\.)?eddiebauer.com$ 1;
     ~^(.*\.)?cityofkokomo.org$ 1;
     ~^(.*\.)?stealth.com$ 1;
@@ -3781,7 +3726,7 @@ map $host $allowed_host {
     ~^(.*\.)?lethato.com$ 1;
     ~^(.*\.)?omnilife.com$ 1;
     ~^(.*\.)?hielscher.com$ 1;
-    ~^(.*\.)?1winbet-giris-tr.com$ 1;
+    ~^(.*\.)?1win-giris-tr.com$ 1;
     ~^(.*\.)?smashtess.com$ 1;
     ~^(.*\.)?visitcalaveras.org$ 1;
     ~^(.*\.)?olesmoky.com$ 1;
@@ -3837,8 +3782,6 @@ map $host $allowed_host {
     ~^(.*\.)?jbalvin.com$ 1;
     ~^(.*\.)?popfigures.com$ 1;
     ~^(.*\.)?bfa.com$ 1;
-    ~^(.*\.)?alphabetthemes.com$ 1;
-    ~^(.*\.)?bettiltt.com$ 1;
     ~^(.*\.)?cityofpacificgrove.org$ 1;
     ~^(.*\.)?spectrumlaserlights.com$ 1;
     ~^(.*\.)?patogupirkti.lt$ 1;
@@ -3861,7 +3804,6 @@ map $host $allowed_host {
     ~^(.*\.)?mdma.ch$ 1;
     ~^(.*\.)?topclassactions.com$ 1;
     ~^(.*\.)?kulfibeauty.com$ 1;
-    ~^(.*\.)?v9betp.vip$ 1;
     ~^(.*\.)?eggfactorycafe.com$ 1;
     ~^(.*\.)?thig.com$ 1;
     ~^(.*\.)?loopme.com$ 1;
@@ -3886,7 +3828,6 @@ map $host $allowed_host {
     ~^(.*\.)?gabyfriedman.com$ 1;
     ~^(.*\.)?newmastersounds.com$ 1;
     ~^(.*\.)?frankstellanyc.com$ 1;
-    ~^(.*\.)?freebetstake.com$ 1;
     ~^(.*\.)?gvb.ch$ 1;
     ~^(.*\.)?atfbank.kz$ 1;
     ~^(.*\.)?verdemente.com$ 1;
@@ -3956,7 +3897,6 @@ map $host $allowed_host {
     ~^(.*\.)?hondaiscoin.com$ 1;
     ~^(.*\.)?smartrike.com$ 1;
     ~^(.*\.)?mcclatchydc.com$ 1;
-    ~^(.*\.)?shbetvnd.com$ 1;
     ~^(.*\.)?staticnails.com$ 1;
     ~^(.*\.)?mykawartha.com$ 1;
     ~^(.*\.)?crowboroughlife.com$ 1;
@@ -5250,4 +5190,11 @@ map $host $allowed_host {
     ~^(.*\.)?edgekey.net$ 1;
     ~^(.*\.)?github.dev$ 1;
     ~^(.*\.)?photoroom.com$ 1;
+    ~^(.*\.)?kick.com$ 1;
+    ~^(.*\.)?overwolf.com$ 1;
+    ~^(.*\.)?minecraftservices.com$ 1;
+    ~^(.*\.)?mojang.com$ 1;
+    ~^(.*\.)?riotgames.info$ 1;
+    ~^(.*\.)?fortnite-storage-live.s3.amazonaws.com$ 1;
+    ~^(.*\.)?strava.com$ 1;
 }

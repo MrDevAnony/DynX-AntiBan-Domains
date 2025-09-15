@@ -10,4 +10,5 @@ Allowed domains to change GeoLocation in AntiBan dns (DynX) for iranian users.
 - Secondary UDP & TCP IPv4:  `10.70.95.162`
 - DoT: `anti-ban.dynx.pro`
 - DoQ: `anti-ban.dynx.pro`
-- DoH: Not yet!
+- DoH: `https://anti-ban.dynx.pro/dns-query`
+- Family DoH(Safe Search + block adult content): `https://anti-ban.dynx.pro/dns-query/family`
