@@ -76,8 +76,8 @@ jobs:
             wget -q https://github.com/MrDevAnony/DynX-AntiBan-Domains/raw/refs/heads/main/other/allowed_domains_https.map -O /etc/nginx/allowed_domains_https.map
             nginx -t && systemctl reload nginx
             exit
-
       - name: Update list and clear cache in AdguardHome
         run: |
           sleep 5
-          ${{ secrets.CMD }}
+          ${{ secrets.CMD }}            
+            

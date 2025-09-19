@@ -1,5 +1,12 @@
 map $host $allowed_host {
     default 0;
+    ~^(.*\.)?play.ht$ 1;
+    ~^(.*\.)?replit.com$ 1;
+    ~^(.*\.)?sesame.com$ 1;
+    ~^(.*\.)?github.com$ 1;
+    ~^(.*\.)?github.io$ 1;
+    ~^(.*\.)?githubusercontent.com$ 1;
+    ~^(.*\.)?githubassets.com$ 1;
     ~^(.*\.)?de.archive.ubuntu.com$ 1;
     ~^(.*\.)?report.ml.youngjoygame.com$ 1;
     ~^(.*\.)?login.ml.youngjoygame.com$ 1;
@@ -17,7 +24,6 @@ map $host $allowed_host {
     ~^(.*\.)?salesforce.com$ 1;
     ~^(.*\.)?microsoft.com$ 1;
     ~^(.*\.)?hostinger.com$ 1;
-    ~^(.*\.)?githubusercontent.com$ 1;
     ~^(.*\.)?Beatport.com$ 1;
     ~^(.*\.)?fedoraproject.org$ 1;
     ~^(.*\.)?discordapp.com$ 1;

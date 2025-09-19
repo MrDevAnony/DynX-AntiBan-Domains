@@ -1,5 +1,12 @@
 map $ssl_preread_server_name $allowed_domain {
     default 0.0.0.0:0;
+    ~^(.*\.)?play.ht $ssl_preread_server_name;
+    ~^(.*\.)?replit.com $ssl_preread_server_name;
+    ~^(.*\.)?sesame.com $ssl_preread_server_name;
+    ~^(.*\.)?github.com $ssl_preread_server_name;
+    ~^(.*\.)?github.io $ssl_preread_server_name;
+    ~^(.*\.)?githubusercontent.com $ssl_preread_server_name;
+    ~^(.*\.)?githubassets.com $ssl_preread_server_name;
     ~^(.*\.)?de.archive.ubuntu.com $ssl_preread_server_name;
     ~^(.*\.)?report.ml.youngjoygame.com $ssl_preread_server_name;
     ~^(.*\.)?login.ml.youngjoygame.com $ssl_preread_server_name;
@@ -17,7 +24,6 @@ map $ssl_preread_server_name $allowed_domain {
     ~^(.*\.)?salesforce.com $ssl_preread_server_name;
     ~^(.*\.)?microsoft.com $ssl_preread_server_name;
     ~^(.*\.)?hostinger.com $ssl_preread_server_name;
-    ~^(.*\.)?githubusercontent.com $ssl_preread_server_name;
     ~^(.*\.)?Beatport.com $ssl_preread_server_name;
     ~^(.*\.)?fedoraproject.org $ssl_preread_server_name;
     ~^(.*\.)?discordapp.com $ssl_preread_server_name;
