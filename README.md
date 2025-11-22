@@ -6,8 +6,8 @@ Allowed domains to change GeoLocation in AntiBan dns (DynX) for iranian users.
 
 ## DynX anti-ban (IR Tunnel version):
 
-- Primary UDP & TCP IPv4: `10.70.95.150`
-- Secondary UDP & TCP IPv4:  `10.70.95.162`
+- Primary UDP & TCP IPv4: `10.139.177.18`
+- Secondary UDP & TCP IPv4:  `10.139.177.16`
 - DoT: `anti-ban.dynx.pro`
 - DoQ: `anti-ban.dynx.pro`
 - DoH: `https://anti-ban.dynx.pro/dns-query`
