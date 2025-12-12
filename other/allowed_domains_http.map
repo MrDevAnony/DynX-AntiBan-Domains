@@ -1,7 +1,7 @@
 map $host $allowed_host {
     default 0;
-    ~^(.*\.)?xt.com$ 1;
     ~^(.*\.)?spotifycdn.com$ 1;
+    ~^(.*\.)?xt.com$ 1;
     ~^(.*\.)?play.ht$ 1;
     ~^(.*\.)?replit.com$ 1;
     ~^(.*\.)?sesame.com$ 1;
