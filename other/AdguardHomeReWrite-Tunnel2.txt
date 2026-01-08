@@ -1406,7 +1406,6 @@
 ||usa.visa.com^$dnsrewrite=10.139.177.18
 ||elanfinancialservices.com^$dnsrewrite=10.139.177.18
 ||myaccountaccess.com^$dnsrewrite=10.139.177.18
-||withyoutube.com^$dnsrewrite=10.139.177.18
 ||tablesgenerator.com^$dnsrewrite=10.139.177.18
 ||gpsessentials.com^$dnsrewrite=10.139.177.18
 ||truelicense.java.net^$dnsrewrite=10.139.177.18
@@ -5450,7 +5449,6 @@
 ||xbox360media.ign.com^$dnsrewrite=10.139.177.18
 ||americanexpress.com^$dnsrewrite=10.139.177.18
 ||extensions.sketchup.com^$dnsrewrite=10.139.177.18
-||youtube.com^$dnsrewrite=10.139.177.18
 ||account.microsoft.com^$dnsrewrite=10.139.177.18
 ||account.live.com^$dnsrewrite=10.139.177.18
 ||servicebus.windows.net^$dnsrewrite=10.139.177.18
@@ -5471,5 +5469,3 @@
 ||nvidia.com^$dnsrewrite=10.139.177.18
 ||open-vsx.org^$dnsrewrite=10.139.177.18
 ||deepl.com^$dnsrewrite=10.139.177.18
-||googlevideo.com^$dnsrewrite=10.139.177.18
-||ytimg.com^$dnsrewrite=10.139.177.18

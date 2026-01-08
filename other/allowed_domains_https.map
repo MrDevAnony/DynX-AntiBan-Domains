@@ -1408,7 +1408,6 @@ map $ssl_preread_server_name $allowed_domain {
     ~^(.*\.)?usa.visa.com $ssl_preread_server_name;
     ~^(.*\.)?elanfinancialservices.com $ssl_preread_server_name;
     ~^(.*\.)?myaccountaccess.com $ssl_preread_server_name;
-    ~^(.*\.)?withyoutube.com $ssl_preread_server_name;
     ~^(.*\.)?tablesgenerator.com $ssl_preread_server_name;
     ~^(.*\.)?gpsessentials.com $ssl_preread_server_name;
     ~^(.*\.)?truelicense.java.net $ssl_preread_server_name;
@@ -5452,7 +5451,6 @@ map $ssl_preread_server_name $allowed_domain {
     ~^(.*\.)?xbox360media.ign.com $ssl_preread_server_name;
     ~^(.*\.)?americanexpress.com $ssl_preread_server_name;
     ~^(.*\.)?extensions.sketchup.com $ssl_preread_server_name;
-    ~^(.*\.)?youtube.com $ssl_preread_server_name;
     ~^(.*\.)?account.microsoft.com $ssl_preread_server_name;
     ~^(.*\.)?account.live.com $ssl_preread_server_name;
     ~^(.*\.)?servicebus.windows.net $ssl_preread_server_name;
@@ -5472,7 +5470,4 @@ map $ssl_preread_server_name $allowed_domain {
     ~^(.*\.)?msi.com $ssl_preread_server_name;
     ~^(.*\.)?nvidia.com $ssl_preread_server_name;
     ~^(.*\.)?open-vsx.org $ssl_preread_server_name;
-    ~^(.*\.)?deepl.com $ssl_preread_server_name;
-    ~^(.*\.)?googlevideo.com $ssl_preread_server_name;
-    ~^(.*\.)?ytimg.com $ssl_preread_server_name;
 }

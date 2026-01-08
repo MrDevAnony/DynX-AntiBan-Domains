@@ -1408,7 +1408,6 @@ map $host $allowed_host {
     ~^(.*\.)?usa.visa.com$ 1;
     ~^(.*\.)?elanfinancialservices.com$ 1;
     ~^(.*\.)?myaccountaccess.com$ 1;
-    ~^(.*\.)?withyoutube.com$ 1;
     ~^(.*\.)?tablesgenerator.com$ 1;
     ~^(.*\.)?gpsessentials.com$ 1;
     ~^(.*\.)?truelicense.java.net$ 1;
@@ -5452,7 +5451,6 @@ map $host $allowed_host {
     ~^(.*\.)?xbox360media.ign.com$ 1;
     ~^(.*\.)?americanexpress.com$ 1;
     ~^(.*\.)?extensions.sketchup.com$ 1;
-    ~^(.*\.)?youtube.com$ 1;
     ~^(.*\.)?account.microsoft.com$ 1;
     ~^(.*\.)?account.live.com$ 1;
     ~^(.*\.)?servicebus.windows.net$ 1;
@@ -5472,7 +5470,4 @@ map $host $allowed_host {
     ~^(.*\.)?msi.com$ 1;
     ~^(.*\.)?nvidia.com$ 1;
     ~^(.*\.)?open-vsx.org$ 1;
-    ~^(.*\.)?deepl.com$ 1;
-    ~^(.*\.)?googlevideo.com$ 1;
-    ~^(.*\.)?ytimg.com$ 1;
 }
