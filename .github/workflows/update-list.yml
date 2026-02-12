@@ -18,7 +18,7 @@ jobs:
 
       - name: Generate DynX List and Update Adguard File for first tunnel antiban server
         run: |
-          awk -F'\\^' '{print "||"$1"^$dnsrewrite=10.139.177.16"}' DynX-AntiBan-list.lst > other/AdguardHomeReWrite-Tunnel1.txt
+          awk -F'\\^' '{print "||"$1"^$dnsrewrite=193.24.103.2"}' DynX-AntiBan-list.lst > other/AdguardHomeReWrite-Tunnel1.txt
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add other/AdguardHomeReWrite-Tunnel1.txt
@@ -27,7 +27,7 @@ jobs:
 
       - name: Generate DynX List and Update Adguard File for second tunnel antiban server
         run: |
-          awk -F'\\^' '{print "||"$1"^$dnsrewrite=10.139.177.18"}' DynX-AntiBan-list.lst > other/AdguardHomeReWrite-Tunnel2.txt
+          awk -F'\\^' '{print "||"$1"^$dnsrewrite=193.24.103.1"}' DynX-AntiBan-list.lst > other/AdguardHomeReWrite-Tunnel2.txt
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add other/AdguardHomeReWrite-Tunnel2.txt
