@@ -1,7 +1,7 @@
 map $host $allowed_host {
     default 0;
-    ~^(.*\.)?spotifycdn.com$ 1;
     ~^(.*\.)?xt.com$ 1;
+    ~^(.*\.)?spotifycdn.com$ 1;
     ~^(.*\.)?play.ht$ 1;
     ~^(.*\.)?replit.com$ 1;
     ~^(.*\.)?sesame.com$ 1;
@@ -12,11 +12,11 @@ map $host $allowed_host {
     ~^(.*\.)?de.archive.ubuntu.com$ 1;
     ~^(.*\.)?report.ml.youngjoygame.com$ 1;
     ~^(.*\.)?login.ml.youngjoygame.com$ 1;
-    ~^(.*\.)?genspark.ai$ 1;
     ~^(.*\.)?cachyos.org$ 1;
     ~^(.*\.)?langchain.com$ 1;
     ~^(.*\.)?remotedesktop.google.com$ 1;
     ~^(.*\.)?mariadb.com$ 1;
+    ~^(.*\.)?genspark.ai$ 1;
     ~^(.*\.)?llama.com$ 1;
     ~^(.*\.)?galxe.com$ 1;
     ~^(.*\.)?checks.google.com$ 1;
@@ -5470,4 +5470,5 @@ map $host $allowed_host {
     ~^(.*\.)?msi.com$ 1;
     ~^(.*\.)?nvidia.com$ 1;
     ~^(.*\.)?open-vsx.org$ 1;
+    ~^(.*\.)?deepl.com$ 1;
 }
